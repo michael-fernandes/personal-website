@@ -1,0 +1,47 @@
+.welcome {
+   font-size: min(6.5vh, 14vw);
+   font-weight: 500;
+   max-width: 700px;
+}
+
+
+.web-link  > a {
+   color: rgb(39, 164, 180);
+   font-size: 1.2rem;
+   margin-right: 10px;
+   text-decoration: none;
+   font-weight: 300;
+}
+
+.welcome, .web-link > a {
+   padding: 15px;
+   font-weight: 400;
+}
+
+.web-link > a:hover {
+   color: rgb(46, 204, 224);
+}
+
+/* .web-link > a:focus {
+   
+} */
+
+.web-link > a:after {
+   content: "";
+   background: #90EE90;
+   display: block;
+   position: absolute;
+   padding-top: 300%;
+   padding-left: 350%;
+   margin-left: -20px!important;
+   margin-top: -120%;
+   opacity: 0;
+   transition: all 0.8s
+ }
+ 
+ .web-link > a:hover {
+   padding: 0;
+   margin: 0;
+   opacity: 1;
+   transition: 0s
+ }
