@@ -1,47 +1,70 @@
-.welcome {
-   font-size: min(6.5vh, 14vw);
-   font-weight: 500;
-   max-width: 700px;
+.landing-wrapper {
+   font-size: min(6.5vh, 12vw);
+   font-weight: 300;
+   max-width:  calc(100% - 40px);
 }
 
+.welcome {
+   font-size: min(6.5vh, 12vw);
+   font-weight: 300;
+   max-width: 800px;
+   width: 100%;
+}
+
+.welcome > b {
+   font-weight: 500;
+}
+
+.web-links-container {
+   display: flex;
+   justify-content: space-between;
+   margin-right: 40px;
+   max-width: 250px;
+}
+
+@media screen and (max-width: 500px) {
+   .web-links-container {
+      display: flex;
+      flex-direction: column;
+      height: 70px;
+   }
+}
+
+.web-link {
+   display: block;
+}
 
 .web-link  > a {
-   color: rgb(39, 164, 180);
-   font-size: 1.2rem;
-   margin-right: 10px;
-   text-decoration: none;
-   font-weight: 300;
-}
-
-.welcome, .web-link > a {
-   padding: 15px;
-   font-weight: 400;
-}
-
-.web-link > a:hover {
-   color: rgb(46, 204, 224);
-}
-
-/* .web-link > a:focus {
-   
-} */
-
-.web-link > a:after {
-   content: "";
-   background: #90EE90;
-   display: block;
+   color: inherit;
    position: absolute;
-   padding-top: 300%;
-   padding-left: 350%;
-   margin-left: -20px!important;
-   margin-top: -120%;
-   opacity: 0;
-   transition: all 0.8s
- }
- 
- .web-link > a:hover {
-   padding: 0;
-   margin: 0;
-   opacity: 1;
-   transition: 0s
- }
+   font-size: 1.1rem;
+   margin-right: 10px;
+   font-weight: 400;
+   overflow:hidden;
+   height: 50px;
+   text-decoration-style: none;
+   text-decoration:none;
+}
+
+.web-link > a::after {
+   color: rgb(79, 96, 116);
+   content: "___________________________________________________";
+   text-decoration-color: rgb(39, 164, 180);
+   text-decoration-style: wavy;
+   text-decoration-line: line-through;
+   position: absolute;
+   transform: translateY(0.4em);
+   width: 500px;
+   height: 20px;
+   left: 0px;
+   top: 5px;
+}
+
+.web-link > a:hover::after {
+   animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+   0% {left: 0;}
+   100% {left: -30px;}
+}
