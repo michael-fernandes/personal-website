@@ -1,3 +1,4 @@
+import React from 'react';
 import { Welcome, WebLinks } from '../Components/Landing';
 
 import '../Styles/Landing.css';

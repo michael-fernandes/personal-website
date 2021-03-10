@@ -10,7 +10,7 @@ function WebLinks(props) {
         <a href="https://www.linkedin.com/in/mike-fernandes/">LinkedIn</a>
       </span>
       <span className="web-link web-link-email">
-        <a href="https://www.linkedin.com/in/mike-fernandes/">m.fern93@gmail.com</a></span>
+        <a href="m.fern93@gmail.com">m.fern93@gmail.com</a></span>
     </div>
   );
 }
