@@ -33,6 +33,11 @@
       flex-direction: column;
       height: 70px;
    }
+
+   .welcome {
+      font-size: 2.5rem;
+      font-weight: 300;
+   }
 }
 
 .web-link {
