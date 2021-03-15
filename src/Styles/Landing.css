@@ -4,16 +4,13 @@
 }
 
 .landing-wrapper {
-   font-size: min(6.5vh, 12vw);
    font-weight: 300;
    max-width:  calc(100% - 40px);
-   /* animation: 0.250s ease-in 0.25s 1 slideInFromLeft; */
-   /* transition: 0.1s; */
    animation: 1s fadein 0.25s 1;
 }
 
 .welcome {
-   font-size: min(6.5vh, 12vw);
+   font-size: 3rem;
    font-weight: 300;
    max-width: 800px;
    width: 100%;
