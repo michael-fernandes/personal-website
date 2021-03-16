@@ -7,6 +7,18 @@
    font-weight: 300;
    max-width:  calc(100% - 40px);
    animation: 1s fadein 0.25s 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+   /*  
+      Yay, a VH fix that works!
+      https://dev.to/cydstumpel/4-things-in-web-development-i-ve-learned-in-2020-so-far-3cg 
+   */
+   min-height: -webkit-fill-available;
+   min-height: stretch;
+   min-height: 100vh;
+
 }
 
 .welcome {
