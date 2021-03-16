@@ -15,10 +15,10 @@
       Yay, a VH fix that works!
       https://dev.to/cydstumpel/4-things-in-web-development-i-ve-learned-in-2020-so-far-3cg 
    */
-   min-height: -webkit-fill-available;
-   min-height: stretch;
-   min-height: 100vh;
-
+   height: 100vh;
+   height: -moz-available;  
+   height: -webkit-fill-available;
+   height: fill-available;
 }
 
 .welcome {
