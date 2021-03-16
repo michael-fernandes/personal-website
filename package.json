@@ -8,6 +8,7 @@
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "@babel/register": "^7.7.0",
+    "analytics": "^0.7.4",
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "express": "^4.17.1",

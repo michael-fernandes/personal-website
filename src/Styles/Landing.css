@@ -12,13 +12,13 @@
    justify-content: center;
 
    /*  
-      Yay, a VH fix that works!
+      Yay, a full height fix that works on ios!
       https://dev.to/cydstumpel/4-things-in-web-development-i-ve-learned-in-2020-so-far-3cg 
    */
-   height: 100vh;
-   height: -moz-available;  
-   height: -webkit-fill-available;
-   height: fill-available;
+   min-height: -moz-available;          
+   min-height: -webkit-fill-available;  
+   min-height: fill-available;
+   min-height: 100vh;
 }
 
 .welcome {
@@ -47,7 +47,7 @@
    }
 
    .welcome {
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       font-weight: 300;
    }
 }
