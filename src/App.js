@@ -1,10 +1,10 @@
 import React from 'react';
 import { Landing } from './Containers';
-// import { analytics } from './Analytics';
+import { analytics } from './Analytics';
 
 import './Styles/App.css';
 
-// analytics.page()
+analytics.page()
 
 function App() {
   return (

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "17": "0.0.0",
+    "@analytics/google-analytics": "^0.5.2",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "@babel/register": "^7.7.0",
