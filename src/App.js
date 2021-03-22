@@ -1,5 +1,5 @@
 import React from 'react';
-import { Landing } from './Containers';
+import { Landing, Projects} from './Containers';
 import { analytics } from './Analytics';
 
 import './Styles/App.css';
@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
         <Landing />
+        <Projects />
     </div>
   );
 }

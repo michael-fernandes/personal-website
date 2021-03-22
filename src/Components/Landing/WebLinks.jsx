@@ -1,6 +1,6 @@
 import React from 'react';
 
-function WebLinks(props) {
+function WebLinks() {
   return (
     <div className="web-links-container">
       <span className="web-link"> 
