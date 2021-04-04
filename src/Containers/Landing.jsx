@@ -6,9 +6,11 @@ import '../Styles/Landing.css';
 
 function Landing(props) {
   return (
-    <div className="landing-wrapper">
-      <Welcome/>
-      <WebLinks />
+    <div className="landing-section">
+      <div className="landing-wrapper">
+        <Welcome/>
+        <WebLinks/>
+      </div>
     </div>
   );
 }
