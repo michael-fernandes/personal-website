@@ -6,7 +6,6 @@ import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 
 import App from '../src/App'
-import nodemailer from 'nodemailer';
 
 const PORT = 8000;
 const app = express()

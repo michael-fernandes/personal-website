@@ -3,8 +3,9 @@ import { Landing, Projects} from './Containers';
 import { analytics } from './Analytics';
 
 import './Styles/App.css';
+import './Styles/UI.css';
 
-analytics.page()
+// analytics.page()
 
 function App() {
   return (
