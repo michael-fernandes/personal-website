@@ -3,6 +3,12 @@
    to   { opacity: 1; }
 }
 
+.landing-section { 
+   background-color: #104392;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%237691ba' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+   width: 100vw;
+}
+
 .landing-wrapper {
    font-weight: 300;
    max-width:  calc(100% - 40px);
@@ -19,6 +25,8 @@
    min-height: -webkit-fill-available;  
    min-height: fill-available;
    min-height: 100vh;
+   max-width: 800px;
+   margin: auto;
 }
 
 .welcome {
@@ -62,16 +70,16 @@
    font-size: 1.1rem;
    margin-right: 10px;
    font-weight: 400;
-   overflow:hidden;
-   height: 50px;
+   overflow: hidden;
+   height: 30px;
    text-decoration-style: none;
-   text-decoration:none;
+   text-decoration: none;
 }
 
 .web-link > a::after {
-   color: rgb(79, 96, 116);
+   color: #104392;
    content: "___________________________________________________";
-   text-decoration-color: rgb(39, 164, 180);
+   text-decoration-color: #FFE44D;
    text-decoration-style: wavy;
    text-decoration-line: line-through;
    position: absolute;
@@ -79,11 +87,15 @@
    width: 500px;
    height: 20px;
    left: 0px;
-   top: 5px;
+   top: 6px;
 }
 
 .web-link > a:hover::after {
-   animation: animate 1.5s linear infinite;
+   animation: animate 1.3s linear infinite;
+}
+
+.web-link > a:active { 
+   color: #FFE44D;
 }
 
 @keyframes animate {

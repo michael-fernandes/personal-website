@@ -1,6 +1,8 @@
+import React from 'react';
+
 function SectionTitle({children}) {
   return (
-    <h2>{children}</h2>
+    <h2 className="section-title">{children}</h2>
   );
 }
 

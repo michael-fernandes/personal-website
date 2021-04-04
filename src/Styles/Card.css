@@ -1,0 +1,45 @@
+.card { 
+  background-size: contain;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);  padding: 10px;
+  margin: 20px 0px;
+  min-height: 200px;
+  position: relative;
+}
+
+.card > * {
+  margin: 10px;
+}
+
+.card-title {
+  color: #104392;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.card-description { 
+  font-weight: 300;
+  color: #104392;
+}
+
+.card-links {
+  bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+.card-link {
+  border: 1.5px solid white;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 0.8rem;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: 400;
+
+}
+
+.card-link:hover {
+  color: yellow;
+  border-color: yellow;
+}
