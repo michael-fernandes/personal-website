@@ -22,7 +22,7 @@ export default [
     description: 'Population Health refers to the analysis of health outcomes on a population level. Here are a few public facing tools and data journalism that I have contributed too.',
     links: [
       {url: "https://vizhub.healthdata.org/child-mortality", text: "Child Mortality"},
-      {url: "https://covid19.healthdata.org/united-states-of-america", text: "Child Mortality"}
+      {url: "https://covid19.healthdata.org/united-states-of-america", text: "COVID-19 Projections"}
     ]
   }, 
   { 
