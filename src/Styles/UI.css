@@ -1,4 +1,6 @@
 .section-title {
+  color: #4d5763;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 500;
+  padding-left: 20px;
 }
