@@ -1,0 +1,708 @@
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T00_03_43_657Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T00_04_13_729Z-debug.log
+From github.com:michael-fernandes/personal-website
+   d912b7a..7a39c9f  main       -> origin/main
+Updating d912b7a..7a39c9f
+Fast-forward
+ public/index.html    | 13 -------------
+ src/Styles/index.css |  1 +
+ src/index.js         |  1 +
+ 3 files changed, 2 insertions(+), 13 deletions(-)
+ create mode 100644 src/Styles/index.css
+
+> personal-website@0.1.0 build /home/ubuntu/personal-website
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  41.04 KB       build/static/js/2.b37e3e84.chunk.js
+  777 B          build/static/js/runtime-main.065a72ac.js
+  762 B (+73 B)  build/static/css/main.ecbf699a.chunk.css
+  578 B (+5 B)   build/static/js/main.5b7b8a7c.chunk.js
+
+The project was built assuming it is hosted at the server root.
+You can control this with the homepage field in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  yarn global add serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://bit.ly/CRA-deploy
+
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T00_45_46_521Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+App launched on 8000
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T01_10_17_673Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T01_15_34_300Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T01_17_40_457Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T01_17_53_737Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T01_21_59_664Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-15T01_23_26_960Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-16T04_50_16_109Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-16T04_59_55_437Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'analytics'
+Require stack:
+- /home/ubuntu/personal-website/src/Analytics/Analytics.js
+- /home/ubuntu/personal-website/src/Analytics/index.js
+- /home/ubuntu/personal-website/src/App.js
+- /home/ubuntu/personal-website/server/server.js
+- /home/ubuntu/personal-website/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/ubuntu/personal-website/src/Analytics/Analytics.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/personal-website/src/Analytics/Analytics.js',
+    '/home/ubuntu/personal-website/src/Analytics/index.js',
+    '/home/ubuntu/personal-website/src/App.js',
+    '/home/ubuntu/personal-website/server/server.js',
+    '/home/ubuntu/personal-website/server/index.js'
+  ]
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-16T06_29_37_321Z-debug.log
+[Error: ENOENT: no such file or directory, open '/home/ubuntu/personal-website/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ubuntu/personal-website/build/index.html'
+}
+[Error: ENOENT: no such file or directory, open '/home/ubuntu/personal-website/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ubuntu/personal-website/build/index.html'
+}
+[Error: ENOENT: no such file or directory, open '/home/ubuntu/personal-website/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ubuntu/personal-website/build/index.html'
+}
+[Error: ENOENT: no such file or directory, open '/home/ubuntu/personal-website/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ubuntu/personal-website/build/index.html'
+}
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'analytics'
+Require stack:
+- /home/ubuntu/personal-website/src/Analytics/Analytics.js
+- /home/ubuntu/personal-website/src/Analytics/index.js
+- /home/ubuntu/personal-website/src/App.js
+- /home/ubuntu/personal-website/server/server.js
+- /home/ubuntu/personal-website/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/ubuntu/personal-website/src/Analytics/Analytics.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/personal-website/src/Analytics/Analytics.js',
+    '/home/ubuntu/personal-website/src/Analytics/index.js',
+    '/home/ubuntu/personal-website/src/App.js',
+    '/home/ubuntu/personal-website/server/server.js',
+    '/home/ubuntu/personal-website/server/index.js'
+  ]
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-16T06_31_52_673Z-debug.log
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module 'analytics'
+Require stack:
+- /home/ubuntu/personal-website/src/Analytics/Analytics.js
+- /home/ubuntu/personal-website/src/Analytics/index.js
+- /home/ubuntu/personal-website/src/App.js
+- /home/ubuntu/personal-website/server/server.js
+- /home/ubuntu/personal-website/server/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/ubuntu/personal-website/src/Analytics/Analytics.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/ubuntu/personal-website/src/Analytics/Analytics.js',
+    '/home/ubuntu/personal-website/src/Analytics/index.js',
+    '/home/ubuntu/personal-website/src/App.js',
+    '/home/ubuntu/personal-website/server/server.js',
+    '/home/ubuntu/personal-website/server/index.js'
+  ]
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-16T06_35_39_497Z-debug.log
+[Error: ENOENT: no such file or directory, open '/home/ubuntu/personal-website/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ubuntu/personal-website/build/index.html'
+}
+[Error: ENOENT: no such file or directory, open '/home/ubuntu/personal-website/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ubuntu/personal-website/build/index.html'
+}
+
+> personal-website@0.1.0 ssr /home/ubuntu/personal-website
+> node server/index.js
+
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (/home/ubuntu/personal-website/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/personal-website/server/server.js:28:5)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Module._compile (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:99:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Object.newLoader [as .js] (/home/ubuntu/personal-website/node_modules/pirates/lib/index.js:104:7)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1340:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8000
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! personal-website@0.1.0 ssr: `node server/index.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the personal-website@0.1.0 ssr script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2021-03-16T06_43_40_025Z-debug.log

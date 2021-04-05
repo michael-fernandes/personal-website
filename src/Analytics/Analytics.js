@@ -5,7 +5,7 @@ export const analytics = Analytics({
   app: 'Analytics',
   plugins: [
     googleAnalytics({
-      trackingId: ''
+      trackingId: 'UA-73790222-1'
     })
   ]
 })
