@@ -1,6 +1,37 @@
-.section-title {
-  color: #4d5763;
-  font-size: 2rem;
-  font-weight: 500;
+.titles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: row;
   padding-left: 20px;
+  justify-content:  space-between;
+  align-items: center;
+}
+
+.titles > * {
+  margin: 0px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.section-subtitle, .section-title  {
+  color: #4d5763;
+}
+
+.section-subtitle {
+  max-width: 300px;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 670px) {
+  .titles {
+    flex-direction: column;
+    display: block;
+  }
+
+  .section-subtitle {
+    margin: 20px 0px;
+  }
 }

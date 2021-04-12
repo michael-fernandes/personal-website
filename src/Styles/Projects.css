@@ -1,5 +1,12 @@
 .projects {
   background: white;
   height: 100vh;
-  max-width: 800px;
+  max-width: 900px;
+  padding: 40px 0px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

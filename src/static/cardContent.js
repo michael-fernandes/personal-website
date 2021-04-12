@@ -15,7 +15,7 @@ export default [
   },
   { 
     style: {
-      color: '#00E08E', 
+      color: '#64F4BE', 
       background: img.background3,
     },
     title: 'Population Health Work', 
@@ -27,13 +27,35 @@ export default [
   }, 
   { 
     style: {
-      color: '#FF007D', 
-      background: img.background4,
+      color: '#30AFF2', 
+      background: img.background2,
     },     
     title: 'Data Viz Explorations', 
     description: 'Explorations and proof of concepts for novel interactive data visualization using D3.js.',
     links: [
+      {url: "https://observablehq.com/@michael-fernandes", text: "Observable Demos"}
+    ]
+  }, 
+  { 
+    style: {
+      color: '#F46464', 
+      background: img.background4,
+    },     
+    title: 'Bookasorous', 
+    description: 'A mobile app built in react native which allows book readers to track new vocabulary words. Work in Progress.',
+    links: [
       {url: "https://github.com/michael-fernandes", text: "Code"}
+    ]
+  }, 
+  { 
+    style: {
+      color: '#6F64F4', 
+      background: img.background5,
+    },     
+    title: 'Opioid Crisis', 
+    description: 'A custom build visualization dashboard for showing opioid deaths in America.',
+    links: [
+      {url: "https://github.com/michael-fernandes/Opioid-Crisis", text: "Code"}
     ]
   }, 
 ];
