@@ -5,4 +5,11 @@ import background4 from './background-04.svg';
 import background5 from './background-05.svg';
 import background6 from './background-06.svg';
 
-export { background1, background2, background3, background4, background5, background6 };
+export { 
+  background1, 
+  background2, 
+  background3, 
+  background4, 
+  background5, 
+  background6 
+};
