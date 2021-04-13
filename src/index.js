@@ -4,7 +4,9 @@ import App from './App';
 import './Styles/index.css';
 import { analytics } from './Analytics';
 
-analytics.page();
+if (process.env.NODE_ENV !== 'development') {
+  analytics.page();
+}
 
 ReactDOM.render(
   <React.StrictMode>
