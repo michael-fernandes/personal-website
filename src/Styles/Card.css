@@ -1,7 +1,7 @@
 .card { 
   background-size: contain;
   border-radius: 4px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.13);
   margin: 2%;
   width: 46%;
   min-height: 220px;
