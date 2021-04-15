@@ -1,6 +1,6 @@
 import * as img from '../static/backgrounds';
 
-const isDev = process.env.NODE_ENV !== 'development' ? true : false;
+const isDev = false;
 
 export default [
   { 
