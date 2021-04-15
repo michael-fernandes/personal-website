@@ -33,6 +33,7 @@
 .welcome {
    font-size: 3rem;
    font-weight: 300;
+   margin-top: 0px;
    max-width: 800px;
    width: 100%;
 }
