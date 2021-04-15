@@ -1,8 +1,9 @@
 .projects {
   background: white;
-  height: 100vh;
+  color: #4d5763;
   max-width: 900px;
   padding: 40px 0px;
+  
 }
 
 .card-grid {

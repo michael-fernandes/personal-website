@@ -5,7 +5,8 @@ import styled from 'styled-components';
 const Link = styled.a`
   border: 2px solid ${props => props.color};
   color: ${props => props.color};
-
+  opacity: ${props => props.animate ? '100%' : '0%'};
+  transition: opacity .25s ease;
   &:hover {
     background: ${props => props.color};
     color: white;
@@ -17,11 +18,11 @@ const Link = styled.a`
   }
 `;
 
-function CardLink({text, url}) {
+function CardLink({text, url, animate}) {
   const { color } = useContext(CardTheme);
 
   return (
-    <Link className="card-link" href={url} color={color}>
+    <Link animate={animate} className="card-link" href={url} color={color}>
       {text}
     </Link>
   );
