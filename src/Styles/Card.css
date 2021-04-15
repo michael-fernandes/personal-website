@@ -9,11 +9,15 @@
 }
 
 .card:nth-child(even) {
-  top: 40px;
+  top: 50px;
 }
 
-.card > * {
+.card-body {
   padding: 10px;
+}
+
+.body-link {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 670px) {
@@ -34,6 +38,7 @@
   /* margin: 10px; */
   height: 180px;
   border-radius: 4px 4px 1px 1px;
+  text-decoration: none;
 }
 
 .card-title {
@@ -56,20 +61,17 @@
   flex: 1;
   min-height: 30px;
   align-items: center;
+  padding: 10px;
 }
 
 .card-link {
-  border: 1.5px solid white;
+  border: 1px solid white;
   border-radius: 4px;
   font-size: 0.8rem;
   color: inherit;
-  font-weight: 400;
+  font-weight: 500;
   margin-right: 10px;
   text-decoration: inherit;
-  padding: 4px;
+  padding: 6px 10px;
 }
 
-.card-link:hover {
-  color: yellow;
-  border-color: yellow;
-}

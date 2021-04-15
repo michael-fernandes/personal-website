@@ -9,12 +9,12 @@ function Projects() {
   return (
     <div className="projects">
       <SectionTitle 
-        subtitle="A collection of web development websites, code and prototypes I've have worked on recently.">
+        subtitle="A collection of web apps including code and prototypes I've worked on.">
         Projects
       </SectionTitle>
       <div className="card-grid">
         { cardContent.map(({style, title, description, links}) => (
-          <Card color={style} links={links}>
+          <Card theme={style} links={links}>
             <CardTitle>{title}</CardTitle>
             <CardDescription>{description}</CardDescription>
           </Card>

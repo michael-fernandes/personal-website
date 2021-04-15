@@ -15,7 +15,7 @@ export default [
   },
   { 
     style: {
-      color: '#64F4BE', 
+      color: '#64E6B6', 
       background: img.background3,
     },
     title: 'Population Health Work', 

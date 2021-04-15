@@ -21,8 +21,11 @@
 }
 
 .section-subtitle {
-  max-width: 350px;
+  font-weight: 300;
   font-style: italic;
+  max-width: 350px;
+  position: relative;
+  top: 20px;
 }
 
 @media only screen and (max-width: 670px) {
