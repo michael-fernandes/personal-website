@@ -11,8 +11,8 @@ export default [
     title: 'PhysioMap', 
     description: 'A collaboration done with Physical Therapy Researchers to create a patient-centered app For communicating fall-risk to geriatric patients.',
     links: [
+      {url: "http://staff.washington.edu/mfern93/", text: "Website"},
       {url: "https://github.com/michael-fernandes/physio-map", text: "Code"},
-      {url: "http://staff.washington.edu/mfern93/", text: "Website"}
     ]
   },
   { 
