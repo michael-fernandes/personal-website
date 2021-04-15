@@ -14,7 +14,7 @@ function Projects() {
       </SectionTitle>
       <div className="card-grid">
         { cardContent.map(({style, title, description, links}) => (
-          <Card theme={style} links={links}>
+          <Card theme={style} links={links} key={title}>
             <CardTitle>{title}</CardTitle>
             <CardDescription>{description}</CardDescription>
           </Card>
