@@ -1,7 +1,6 @@
 import React, {useLayoutEffect,  useRef, useState } from 'react';
 import { CardLink, CardLinks } from '.'; 
 import CardTheme from './CardTheme';
-import styled from 'styled-components';
 
 const ANIMATION_OFFSET = 40; 
 
