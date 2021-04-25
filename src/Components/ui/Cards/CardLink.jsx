@@ -18,9 +18,17 @@ const Link = styled.a`
   }
 `;
 
-function CardLink({text, url, animate}) {
+function CardLink({text, url, animate, onClick}) {
   const { color } = useContext(CardTheme);
 
+  if (onClick) {
+    console.log(onClick);
+    return (
+      <Link animate={animate} className="card-link" onClick={onClick} color={color}>
+        {text}
+      </Link>
+    );
+  }
   return (
     <Link animate={animate} className="card-link" href={url} color={color}>
       {text}

@@ -1,6 +1,6 @@
 import * as img from '../static/backgrounds';
-
-const isDev = false;
+import mockupsOnClick from './mockupsOnClick';
+const isDev = true;
 
 export default [
   { 
@@ -24,7 +24,8 @@ export default [
     description: 'Population Health refers to the analysis of health outcomes on a population level. Here are a few public facing tools and data journalism that I have contributed too.',
     links: [
       {url: "https://vizhub.healthdata.org/child-mortality", text: "Child Mortality"},
-      {url: "https://covid19.healthdata.org/united-states-of-america", text: "COVID-19 Projections"}
+      {url: "https://covid19.healthdata.org/united-states-of-america", text: "COVID-19 Projections"},
+      // {url: "http://michael-fernandes.github.io/Opioid-Crisis", text: "Opioid Crisis"}
     ]
   }, 
   { 
@@ -54,10 +55,10 @@ export default [
       color: '#6F64F4', 
       background: isDev ? img.background5 : 'http://mferns.com/backgrounds/background-05.svg',
     },     
-    title: 'Opioid Crisis', 
+    title: 'Self Assist Mockups', 
     description: 'A custom build visualization dashboard for showing opioid deaths in America.',
     links: [
-      {url: "https://github.com/michael-fernandes/Opioid-Crisis", text: "Code"}
+      {onClick: mockupsOnClick, text: "View Mockups"}
     ]
-  }, 
+  },
 ];

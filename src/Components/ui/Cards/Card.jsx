@@ -34,7 +34,6 @@ function Card({children, theme, links = []}) {
 
   return (
     <CardTheme.Provider value={theme}>
-      {/* <div className="card" style={{border: `1.5px solid ${color}`}}> */}
       <div className="card" ref={ref}>
         <a  className="body-link" title={primaryText} href={primaryUrl}>
           <div style={style} className="card-body" >
@@ -42,7 +41,7 @@ function Card({children, theme, links = []}) {
           </div>
         </a>
         <CardLinks>
-            {links.map(({url, text}) => <CardLink animate={animate} url={url} text={text} key={url}/>)}
+            {links.map(({url, text, onClick}) => <CardLink animate={animate} url={url} text={text} key={url} onClick={onClick}/>)}
         </CardLinks>
       </div>
     </CardTheme.Provider>
