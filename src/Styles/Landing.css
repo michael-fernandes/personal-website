@@ -38,6 +38,7 @@
    max-width: 800px;
    width: 100%;
    color: white;
+   line-height: 4rem;
 }
 
 .welcome > b {
