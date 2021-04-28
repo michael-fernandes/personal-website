@@ -9,7 +9,6 @@ function Card({children, theme, links = []}) {
   const [animate, setAnimate] = useState(false);
   const {url: primaryUrl, text: primaryText} = links[0];
   
-  // TODO: figure out why ssr won't allow styled component here
   const style = { 
     background: theme.color, 
     backgroundImage: `url(${theme.background})`,

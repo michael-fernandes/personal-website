@@ -155,46 +155,5 @@
       "jest-watch-typeahead/filename",
       "jest-watch-typeahead/testname"
     ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ],
-    "env": {
-      "development": {
-        "plugins": [
-          [
-            "babel-plugin-styled-components",
-            {
-              "ssr": true,
-              "displayName": true,
-              "preprocess": false
-            }
-          ]
-        ]
-      },
-      "production": {
-        "plugins": [
-          [
-            "babel-plugin-styled-components",
-            {
-              "ssr": true,
-              "displayName": true,
-              "preprocess": false
-            }
-          ]
-        ]
-      }
-    },
-    "plugins": [
-      [
-        "babel-plugin-styled-components",
-        {
-          "ssr": true,
-          "displayName": true,
-          "preprocess": false
-        }
-      ]
-    ]
   }
 }
