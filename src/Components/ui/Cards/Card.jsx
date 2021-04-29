@@ -1,12 +1,14 @@
-import React, {useLayoutEffect,  useRef, useState } from 'react';
-import { CardLink, CardLinks } from '.'; 
-import CardTheme from './CardTheme';
+import React, { useCallback, useLayoutEffect,  useRef } from 'react';
+import { CardLink, CardLinks, CardTheme } from '.'; 
 
 const ANIMATION_OFFSET = 40; 
 
+
+
 function Card({children, theme, links = []}) {
+  // const [a, setAnimationState] = useState(); // this line caues a node compile error
+
   const ref = useRef(); 
-  const [animate, setAnimate] = useState(false);
   const {url: primaryUrl, text: primaryText} = links[0];
   
   const style = { 
@@ -17,14 +19,14 @@ function Card({children, theme, links = []}) {
     padding: '10px',
   };
 
-  const onScroll = () => {
+  const onScroll = useCallback(() => {
     if(ref.current) {
       const { bottom: cardBottom } = ref.current.getBoundingClientRect();
       if (cardBottom - window.innerHeight  + ANIMATION_OFFSET < 0) { 
-        setAnimate(true);
+        setAnimationState(true);
       }
     }
-  }
+  });
 
   useLayoutEffect(() => {
     window.addEventListener('scroll', onScroll)
@@ -40,7 +42,7 @@ function Card({children, theme, links = []}) {
           </div>
         </a>
         <CardLinks>
-            {links.map(({url, text, onClick}) => <CardLink animate={animate} url={url} text={text} key={url} onClick={onClick}/>)}
+            {links.map(({url, text, onClick}) => <CardLink animate={false} url={url} text={text} key={url} onClick={onClick}/>)}
         </CardLinks>
       </div>
     </CardTheme.Provider>
@@ -48,3 +50,4 @@ function Card({children, theme, links = []}) {
 }
 
 export default Card;
+
