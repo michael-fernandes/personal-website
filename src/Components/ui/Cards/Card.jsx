@@ -19,19 +19,19 @@ function Card({children, theme, links = []}) {
     padding: '10px',
   };
 
-  const onScroll = useCallback(() => {
-    if(ref.current) {
-      const { bottom: cardBottom } = ref.current.getBoundingClientRect();
-      if (cardBottom - window.innerHeight  + ANIMATION_OFFSET < 0) { 
-        setAnimationState(true);
-      }
-    }
-  });
+  // const onScroll = useCallback(() => {
+  //   if(ref.current) {
+  //     const { bottom: cardBottom } = ref.current.getBoundingClientRect();
+  //     if (cardBottom - window.innerHeight  + ANIMATION_OFFSET < 0) { 
+  //       setAnimationState(true);
+  //     }
+  //   }
+  // });
 
-  useLayoutEffect(() => {
-    window.addEventListener('scroll', onScroll)
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+  // useLayoutEffect(() => {
+  //   window.addEventListener('scroll', onScroll)
+  //   return () => window.removeEventListener('scroll', onScroll)
+  // }, []);
 
   return (
     <CardTheme.Provider value={theme}>
