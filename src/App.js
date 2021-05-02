@@ -1,6 +1,8 @@
 import React from 'react';
 import { About, Landing, Projects } from './Containers';
 import { analytics } from './Analytics';
+import { Provider } from 'react-redux';
+import { store } from './store';
 
 import './Styles/App.css';
 import './Styles/UI.css';
@@ -9,11 +11,13 @@ import './Styles/UI.css';
 
 function App() {
   return (
-    <div className="App">
-        <Landing />
-        <Projects />
-        {/* <About /> */}
-    </div>
+    <Provider store={store}>
+      <div className="App">
+          <Landing />
+          <Projects />
+          {/* <About /> */}
+      </div>
+    </Provider>
   );
 }
 
