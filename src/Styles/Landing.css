@@ -43,7 +43,7 @@
 }
 
 .landing-wrapper > * {
-   margin-bottom: 4px;
+   margin-bottom: 8px;
 }
 
 .welcome > b {
@@ -51,7 +51,7 @@
 }
 
 .landing-wrapper > p {
-   font-size: 1.5rem;
+   font-size: 1.75rem;
 }
 
 .web-links-container {
@@ -126,6 +126,10 @@
    top: 6px;
 }
 
+.web-link > a:hover {
+   transition: color 1s;
+   color: #FFE44D;
+}
 @keyframes animate {
    0% {left: 0;}
    100% {left: -30px;}
