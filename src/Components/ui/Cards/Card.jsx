@@ -12,6 +12,11 @@ function Card({theme, links = []}) {
     <CardTheme.Provider value={theme}>
       <a  className="body-link" title={primaryText} href={primaryUrl}>
         <img className="card" src={theme.background} />
+        <div className="card-overlay"> 
+          <div className="centered-text">
+            Visit Project →
+          </div>
+        </div>
       </a>
     </CardTheme.Provider>
   )
