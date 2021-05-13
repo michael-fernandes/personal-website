@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Landing, Projects } from './Containers';
+import { About, Landing, Intro, Projects } from './Containers';
 import { analytics } from './Analytics';
 import { Provider } from 'react-redux';
 import { store } from './store';
@@ -14,6 +14,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
           <Landing />
+          <Intro />
           <Projects />
           {/* <About /> */}
       </div>
