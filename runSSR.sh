@@ -10,7 +10,6 @@ case "$1" in
 esac
 
 git pull origin
-npm i
 npm run build
 nohup npm run ssr &
 echo 'Completed deploy'
