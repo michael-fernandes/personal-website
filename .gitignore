@@ -109,6 +109,5 @@ build/
 node_modules/
 .elasticbeanstalk/
 
-src/Analytics/*
+src/Analytics/
 
-/src/Analytics
