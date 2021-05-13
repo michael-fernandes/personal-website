@@ -5,6 +5,7 @@
   z-index: 999;
   position:fixed;
   background: white;
+  transition: 
 }
 
 .overlay-content {
@@ -35,13 +36,13 @@
 .overlay-photo-content {
  display: flex;
  flex-direction: row;
- height: 100vh;
  padding-bottom: 40px;
  max-width: 900px;
  margin: 0px auto;
 }
 
 .modal-photo {
+  background: transparent url("https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif") center no-repeat;
   height: 70%;
   max-height: 500px;
   box-shadow: 0 4px 4px;
@@ -74,4 +75,5 @@
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  padding: 20px;
 }

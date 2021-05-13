@@ -5,6 +5,7 @@
   padding-left: 20px;
   justify-content:  space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .titles > * {
@@ -12,7 +13,7 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -21,6 +22,7 @@
   font-style: italic;
   max-width: 350px;
   position: relative;
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 670px) {

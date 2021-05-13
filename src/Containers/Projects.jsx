@@ -16,16 +16,18 @@ function Projects() {
       <ProjectsModal />
       <ProjectsContext.Provider value={{}} >
         <div className="projects">
-          <SectionTitle 
-            subtitle="A collection of web apps including websites and code I've worked on.">
+          <SectionTitle >
             Projects
           </SectionTitle>
           <div className="card-grid">
             { cardContent.map(({style, title, description, links}) => (
-              <Card theme={style} links={links} key={title}>
-                <CardTitle>{title}</CardTitle>
-                <CardDescription>{description}</CardDescription>
-              </Card>
+              <div className="card-wrapper">
+                <Card theme={style} links={links} key={title} />
+                <div className="card-description-wrapper">
+                  <CardTitle>{title}</CardTitle>
+                  <CardDescription>{description}</CardDescription>
+                </div>
+              </div>
             ))}
           </div>
         </div>
