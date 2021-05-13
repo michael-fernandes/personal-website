@@ -1,12 +1,10 @@
-import * as img from '../static/backgrounds';
 import mockupsOnClick from './mockupsOnClick';
-const isDev = true;
 
 export default [
   { 
     style: {
       color: '#FFA600', 
-      background: isDev ? img.background1 : 'https://s3-us-west-2.amazonaws.com/mferns.com/background-01.svg',
+      background: 'https://s3-us-west-2.amazonaws.com/mferns.com/thumb1.png',
     },
     title: 'PhysioMap', 
     description: 'A collaboration done with Physical Therapy Researchers to create a patient-centered app communicating fall-risk to geriatric patients.',
@@ -18,7 +16,7 @@ export default [
   { 
     style: {
       color: '#64E6B6', 
-      background: isDev ? img.background3 : 'https://s3-us-west-2.amazonaws.com/mferns.com/background-03.svg',
+      background: 'https://s3-us-west-2.amazonaws.com/mferns.com/thumb2.png',
     },
     title: 'Population Health Work', 
     description: 'Population Health refers to the analysis of health outcomes on a population level. Here are a few public facing tools and data journalism pieces that I have contributed too.',
@@ -31,7 +29,7 @@ export default [
   { 
     style: {
       color: '#30AFF2', 
-      background: isDev ? img.background2 : 'https://s3-us-west-2.amazonaws.com/mferns.com/background-02.svg',
+      background: 'https://s3-us-west-2.amazonaws.com/mferns.com/thumb3.png',
     },     
     title: 'Data Viz Explorations', 
     description: 'Explorations and proof of concepts for interactive data visualizations using D3.js.',
@@ -42,18 +40,18 @@ export default [
   { 
     style: {
       color: '#F46464', 
-      background: isDev ? img.background4 : 'https://s3-us-west-2.amazonaws.com/mferns.com/background-04.svg',
+      background: 'https://s3-us-west-2.amazonaws.com/mferns.com/thumb4.png',
     },     
     title: 'Bookasorous', 
     description: 'A mobile app built in react native which allows book readers to track new vocabulary words. Work in Progress.',
     links: [
-      {url: "https://github.com/michael-fernandes", text: "View Code"}
+      {url: "https://github.com/michael-fernandes/Bookasorous", text: "View Code"}
     ]
   }, 
   { 
     style: {
       color: '#6F64F4', 
-      background: isDev ? img.background5 : 'https://s3-us-west-2.amazonaws.com/mferns.com/background-05.svg',
+      background: 'https://s3-us-west-2.amazonaws.com/mferns.com/thumb5.png',
     },     
     title: 'Self Assist Mockups', 
     description: "A mockup suggesting an application that gives users feedback on their device usage, helps them self-diagnosis problems with the device and seek help via their provider or device manufacturer.",
