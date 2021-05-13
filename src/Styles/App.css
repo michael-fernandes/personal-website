@@ -4,11 +4,10 @@
 }
 
 body {
-  /* background: rgb(79, 96, 116); */
   background: white;
-  color: #4d5763;
+  color: #5a5a5a;
   height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'omnes-pro';
   width: 100%;
   margin: 0px;
 }
@@ -25,3 +24,7 @@ body {
 .section { 
   width: 100%;
 }
+
+/* p {
+  font-size: 1.1rem;
+} */
