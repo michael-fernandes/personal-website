@@ -16,7 +16,7 @@ function App() {
           <Landing />
           <Intro />
           <Projects />
-          {/* <About /> */}
+          <About />
       </div>
     </Provider>
   );

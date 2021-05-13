@@ -5,7 +5,7 @@ import '../Styles/About.css';
 export default function About() {
   return (
     <div className="about">
-      About
+      Hand made by Michael Fernandes – 2021
     </div>
   );
 }
