@@ -1,3 +1,9 @@
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .card-wrapper {
  width: 46%;
  height: max-content;
