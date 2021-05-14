@@ -19,7 +19,7 @@ const Content = () => {
 const Lazy = lazy(() => new Promise(resolve => {
   setTimeout(() => {
     resolve({ default: () => <Content /> });
-  }, 1500);
+  }, 800);
 }));
 
 const Fallback = () => {
