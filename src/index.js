@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 import './Styles/index.css';
+import "skeleton-screen-css";
 import 'antd/dist/antd.css';
 // import { analytics } from './Analytics';
 

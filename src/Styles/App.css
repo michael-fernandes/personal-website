@@ -23,3 +23,28 @@ body {
 .section { 
   width: 100%;
 }
+
+.ssc-intro {
+  margin-bottom: 40px;
+}
+.ssc.ssc-intro > .ssc-wrapper {
+  max-width: 80%;
+}
+
+.ssc-wrapper > .ssc-line {
+  line-height: 3rem;
+}
+
+.ssc-spacer.ssc-wrapper  {
+  margin-bottom: 4rem;
+  padding: 0px;
+}
+
+
+.ssc-spacer.ssc-wrapper > * {
+  margin-bottom: 1.5rem;
+}
+
+.ssc-title {
+  max-width: 40%;
+}
